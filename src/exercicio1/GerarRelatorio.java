@@ -1,4 +1,4 @@
-package src.srp;
+package src.exercicio1;
 
 public class GerarRelatorio {
 

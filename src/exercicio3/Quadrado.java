@@ -1,4 +1,4 @@
-package src.lsp;
+package src.exercicio3;
 
 public class Quadrado implements Forma{
     private int lado;

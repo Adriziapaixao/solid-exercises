@@ -1,7 +1,10 @@
-import src.lsp.Forma;
-import src.lsp.Quadrado;
-import src.lsp.Retangulo;
-import src.out.*;
+import src.exercicio3.Forma;
+import src.exercicio3.Quadrado;
+import src.exercicio3.Retangulo;
+import src.exercicio2.*;
+import src.exercicio4.Atendente;
+import src.exercicio4.Desenvolvedor;
+import src.exercicio4.Programador;
 
 public class Main {
 
@@ -23,5 +26,11 @@ public class Main {
 
         Forma quadrado = new Quadrado(5);
         System.out.println("Área do quadrado: " + quadrado.getArea());
+
+        Atendente atendente = new Atendente();
+        Desenvolvedor programador = new Programador();
+
+        programador.Programar();
+        atendente.atenderCliente();
     }
 }

@@ -1,4 +1,4 @@
-package src.out;
+package src.exercicio2;
 
 public class Multiplicacao implements Operacao {
 

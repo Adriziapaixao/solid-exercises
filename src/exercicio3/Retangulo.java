@@ -1,4 +1,4 @@
-package src.lsp;
+package src.exercicio3;
 
 public class Retangulo implements Forma{
     private int base;
