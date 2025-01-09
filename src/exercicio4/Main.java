@@ -7,7 +7,7 @@ public class Main {
         Atendente atendente = new Atendente();
         Desenvolvedor programador = new Programador();
 
-        programador.Programar();
+        programador.programar();
         atendente.atenderCliente();
     }
 }
